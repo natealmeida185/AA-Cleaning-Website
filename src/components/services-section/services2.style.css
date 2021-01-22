@@ -83,7 +83,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -98,7 +98,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -177,7 +177,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -192,7 +192,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -270,7 +270,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -285,7 +285,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -363,7 +363,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -378,7 +378,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -457,13 +457,13 @@
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .residential2-click button {
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .rental2 h1 {
@@ -478,13 +478,13 @@
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .rental2-click button {
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .office2 h1 {
@@ -499,13 +499,13 @@
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .office2-click button {
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .commercial2 h1 {
@@ -520,13 +520,13 @@
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .commercial2-click button {
         margin-top: 120px;
         font-size: 1.5em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
@@ -556,13 +556,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .residential2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .rental2 h1 {
@@ -577,13 +577,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .rental2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .office2 h1 {
@@ -598,13 +598,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .office2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .commercial2 h1 {
@@ -619,13 +619,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .commercial2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 }
 
@@ -645,13 +645,13 @@
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .residential2-click button {
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .rental2 h1 {
@@ -666,13 +666,13 @@
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .rental2-click button {
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .office2 h1 {
@@ -687,13 +687,13 @@
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .office2-click button {
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .commercial2 h1 {
@@ -708,13 +708,13 @@
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .commercial2-click button {
         margin-top: 100px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
@@ -736,13 +736,13 @@
         margin-top: 95px;
         font-size: 1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .residential2-click button {
         margin-top: 95px;
         font-size: 1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .rental2 h1 {
@@ -757,13 +757,13 @@
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .rental2-click button {
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .office2 h1 {
@@ -778,13 +778,13 @@
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .office2-click button {
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .commercial2 h1 {
@@ -799,13 +799,13 @@
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .commercial2-click button {
         margin-top: 95px;
         font-size: 1.1em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
@@ -832,13 +832,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .residential2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .rental2 h1 {
@@ -853,13 +853,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .rental2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .office2 h1 {
@@ -874,13 +874,13 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .office2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 
     .commercial2 h1 {
@@ -895,12 +895,12 @@
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
     .commercial2-click button {
         margin-top: 110px;
         font-size: 1.3em;
         padding-top: 5px;
-        padding-bottom: 8px;
+        padding-bottom: 6px;
     }
 }

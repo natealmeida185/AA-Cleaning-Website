@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import {useSpring, animated} from 'react-spring';
 import emailjs from 'emailjs-com';
 import { MdClose } from 'react-icons/md';
 import './modal.style.css';
@@ -9,17 +8,6 @@ export function Modal( {showModal, setShowModal} ) {
     const modalRef = useRef()
 
     const [isSubmitted, setIsSubmitted] = useState(false);
-
-    const animation = useSpring({
-        config: {
-            duration: 250
-        },
-        opacity: showModal ? 1 : 0,
-        transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
-        width: `100%`,
-        display: `flex`,
-        justifyContent: `center`
-    });
 
     const closeModal = e => {
         if(modalRef.current === e.target) {
@@ -45,7 +33,6 @@ export function Modal( {showModal, setShowModal} ) {
         <>
             {showModal ? (
                 <div className="modal-bg" ref={modalRef} onClick={closeModal}>
-                    <animated.div style={animation}>
                     <div className="modal-wrapper" showModal={showModal}>
                         <MdClose className="modal-button" aria-label='Close modal' onClick={() => setShowModal(prev => !prev)}/>
                             <div className="modal-contact">
@@ -82,7 +69,6 @@ export function Modal( {showModal, setShowModal} ) {
                                 </form>
                             </div>
                         </div>
-                    </animated.div>
                 </div>
             ) : null}
         </>
