@@ -40,12 +40,6 @@
 }
 
 /* Media Query (Carousel) */
-@media (max-width: 1210px) {
-    #main-img {
-        margin-top: 80px;
-    }
-}
-
 @media (max-width: 1080px) {
     .header h1 {
         font-size: 3.5em;
@@ -58,6 +52,9 @@
     }
     .header h1 {
         font-size: 4em;
+    }
+    #main-img {
+        margin-top: 80px;
     }
 }
 

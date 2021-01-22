@@ -93,8 +93,17 @@
     }
 }
 
+@media (max-width: 900px) {
+    .about {
+        margin-top: -20px;
+    }
+}
+
 @media (max-width: 767.5px) {
     .about5 img {
         content: url(images/aa-ashley2.jpg);
+    }
+    .about {
+        margin-top: -50px;
     }
 }

@@ -1,92 +1,8 @@
 import React, { useState, useRef } from 'react';
 import {useSpring, animated} from 'react-spring';
 import emailjs from 'emailjs-com';
-import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
 import './modal.style.css';
-
-const Background = styled.div` 
-    position: fixed;
-    margin-top: 75px;
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-const ModalWrapper = styled.div`
-    margin-top: -300px;
-    position: absolute;
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
-    background: #fff;
-    color: #000;
-    z-index: 10;
-    height: 600px;
-
-    @media (min-width: 1920px) {
-        width: 30%;
-    }
-    @media (max-width: 1920px) {
-        width: 30%;
-    }
-    @media (max-width: 1680px) {
-        width: 30%;
-    }
-    @media (max-width: 1440px) {
-        width: 40%;
-    }
-    @media (max-width: 1080px) {
-        width: 60%;
-    }
-    @media (max-width: 800px) {
-        width: 80%;
-    }
-
-
-    @media (max-height: 720px) {
-        height: 500px;
-        overflow-y: scroll;
-        margin-top: -250px;
-    }
-    @media (max-height: 650px) {
-        height: 400px;
-        overflow-y: scroll;
-        margin-top: -200px;
-    }
-    @media (max-height: 550px) {
-        height: 300px;
-        overflow-y: scroll;
-        margin-top: -150px;
-    }
-    @media (max-height: 450px) {
-        height: 200px;
-        overflow-y: scroll;
-        margin-top: -100px;
-    }
-    @media (max-height: 350px) {
-        height: 100px;
-        overflow-y: scroll;
-        margin-top: -50px;
-    }
-    @media (max-height: 250px) {
-        height: 50px;
-        overflow-y: scroll;
-        margin-top: -35px;
-    }
-`;
-
-const CloseModalButton = styled(MdClose)`
-    margin: 0;
-    padding: 0;
-    font-size: 1.8em;
-    cursor: pointer;
-    top: -279px;
-    float: right;
-    z-index: 10;
-`;
 
 export function Modal( {showModal, setShowModal} ) {
 
@@ -128,10 +44,10 @@ export function Modal( {showModal, setShowModal} ) {
     return (
         <>
             {showModal ? (
-                <Background ref={modalRef} onClick={closeModal}>
+                <div className="modal-bg" ref={modalRef} onClick={closeModal}>
                     <animated.div style={animation}>
-                    <ModalWrapper showModal={showModal}>
-                        <CloseModalButton aria-label='Close modal' onClick={() => setShowModal(prev => !prev)}/>
+                    <div className="modal-wrapper" showModal={showModal}>
+                        <MdClose className="modal-button" aria-label='Close modal' onClick={() => setShowModal(prev => !prev)}/>
                             <div className="modal-contact">
                                 <h1 className="modal-contact-title">CONTACT</h1>
                                 <div className="modal-contact-info">
@@ -165,9 +81,9 @@ export function Modal( {showModal, setShowModal} ) {
                                         </div>
                                 </form>
                             </div>
-                        </ModalWrapper>
+                        </div>
                     </animated.div>
-                </Background>
+                </div>
             ) : null}
         </>
     )

@@ -83,7 +83,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -98,7 +98,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -177,7 +177,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -192,7 +192,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -270,7 +270,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -285,7 +285,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -363,7 +363,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -378,7 +378,7 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 6px;
     text-shadow: 0px 0px 3px black;
     box-shadow: 0px 0px 3px 0px black;
     background-color: #a5c3b9;
@@ -630,6 +630,9 @@
 }
 
 @media (max-width: 800px) {
+    .service7 {
+        width: 90%;
+    }
     .residential2 h1 {
         font-size: 2.7em;
         margin-top: -50px;
