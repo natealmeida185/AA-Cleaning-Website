@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import {useSpring, animated} from 'react-spring';
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
 import { MdClose } from 'react-icons/md';
@@ -17,6 +18,7 @@ const Background = styled.div`
 `;
 
 const ModalWrapper = styled.div`
+    margin-top: -300px;
     position: absolute;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
     background: #fff;
@@ -47,26 +49,32 @@ const ModalWrapper = styled.div`
     @media (max-height: 720px) {
         height: 500px;
         overflow-y: scroll;
+        margin-top: -250px;
     }
     @media (max-height: 650px) {
         height: 400px;
         overflow-y: scroll;
+        margin-top: -200px;
     }
     @media (max-height: 550px) {
         height: 300px;
-        overflow-y: scroll;    
+        overflow-y: scroll;
+        margin-top: -150px;
     }
     @media (max-height: 450px) {
         height: 200px;
         overflow-y: scroll;
+        margin-top: -100px;
     }
     @media (max-height: 350px) {
         height: 100px;
         overflow-y: scroll;
+        margin-top: -50px;
     }
     @media (max-height: 250px) {
         height: 50px;
         overflow-y: scroll;
+        margin-top: -35px;
     }
 `;
 
@@ -85,6 +93,17 @@ export function Modal( {showModal, setShowModal} ) {
     const modalRef = useRef()
 
     const [isSubmitted, setIsSubmitted] = useState(false);
+
+    const animation = useSpring({
+        config: {
+            duration: 250
+        },
+        opacity: showModal ? 1 : 0,
+        transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+        width: `100%`,
+        display: `flex`,
+        justifyContent: `center`
+    });
 
     const closeModal = e => {
         if(modalRef.current === e.target) {
@@ -110,6 +129,7 @@ export function Modal( {showModal, setShowModal} ) {
         <>
             {showModal ? (
                 <Background ref={modalRef} onClick={closeModal}>
+                    <animated.div style={animation}>
                     <ModalWrapper showModal={showModal}>
                         <CloseModalButton aria-label='Close modal' onClick={() => setShowModal(prev => !prev)}/>
                             <div className="modal-contact">
@@ -146,6 +166,7 @@ export function Modal( {showModal, setShowModal} ) {
                                 </form>
                             </div>
                         </ModalWrapper>
+                    </animated.div>
                 </Background>
             ) : null}
         </>
