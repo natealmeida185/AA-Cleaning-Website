@@ -4,6 +4,7 @@ import Residential from './images/residential-cleaning.jpg';
 import Rental from './images/rental-cleaning.jpg';
 import Office from './images/office-cleaning.jpg';
 import Commercial from './images/commercial-cleaning.jpg';
+import { animateScroll as scroll } from 'react-scroll';
 import DelayLink from 'react-delay-link';
 
 export default function Services() {
@@ -11,6 +12,26 @@ export default function Services() {
     const[click2, setClick2] = useState(true);
     const[click3, setClick3] = useState(true);
     const[click4, setClick4] = useState(true);
+
+    const scrollToTop1 = () => {
+        setClick1(!click1)
+        scroll.scrollToTop();
+    }
+
+    const scrollToTop2 = () => {
+        setClick2(!click2)
+        scroll.scrollToTop();
+    }
+
+    const scrollToTop3 = () => {
+        setClick3(!click3)
+        scroll.scrollToTop();
+    }
+
+    const scrollToTop4 = () => {
+        setClick4(!click4)
+        scroll.scrollToTop();
+    }
 
     return (
         <>
@@ -23,28 +44,28 @@ export default function Services() {
                 <hr/>
             </div>
             <DelayLink delay={700} to="/gallery"> 
-            <div onClick={() => setClick1(!click1)} className={click1 ? 'residential2' : 'residential2-click'}>
+            <div onClick={scrollToTop1} className={click1 ? 'residential2' : 'residential2-click'}>
                 <h1>RESIDENTIAL<br/>HOMES</h1>
                 <button>View Gallery</button>
                 <img src={Residential} alt="residental-service"></img>
             </div>
             </DelayLink>
             <DelayLink delay={700} to="/gallery"> 
-            <div onClick={() => setClick2(!click2)} className={click2 ? 'rental2' : 'rental2-click'}>
+            <div onClick={scrollToTop2} className={click2 ? 'rental2' : 'rental2-click'}>
                 <h1>RENTAL<br/>PROPERTIES</h1>
                 <button>View Gallery</button>
                 <img src={Rental} alt="rental-service"></img>
             </div>
             </DelayLink>
             <DelayLink delay={700} to="/gallery"> 
-            <div onClick={() => setClick3(!click3)} className={click3 ? 'office2' : 'office2-click'}>
+            <div onClick={scrollToTop3} className={click3 ? 'office2' : 'office2-click'}>
                 <h1>OFFICE<br/>SPACES</h1>
                 <button>View Gallery</button>
                 <img src={Office} alt="office-service"></img>
             </div>
             </DelayLink>
             <DelayLink delay={700} to="/gallery"> 
-            <div onClick={() => setClick4(!click4)} className={click4 ? 'commercial2' : 'commercial2-click'}>
+            <div onClick={scrollToTop4} className={click4 ? 'commercial2' : 'commercial2-click'}>
                 <h1>COMMERCIAL<br/>PROPERTIES</h1>
                 <button>View Gallery</button>
                 <img src={Commercial} alt="commercial-service"></img>
