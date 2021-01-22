@@ -1,0 +1,903 @@
+.services {
+    display: flex;
+    justify-content: center;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 80px;
+    max-width: 100%;
+    gap: 5px;
+}
+
+.service1 {
+    width: 100%;
+}
+
+.service1 .title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.service2 {
+    width: 100%;
+}
+
+.service2 h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.service2 hr {
+    border-color: rgb(214, 214, 214);
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.residential2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residential2-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residential2 h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.residential2-click h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.residential2 button {
+    margin-top: 100px;
+    z-index: 1;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.residential2-click button {
+    margin-top: 100px;
+    z-index: 1;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.residential2 button:hover {
+    background-color: #96b6ab;
+}
+
+.residential2-click button:hover {
+    background-color: #96b6ab;
+}
+
+.residential2 img {
+    box-shadow: none;
+    cursor: pointer;
+    height: 395px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+
+.residential2-click img {
+    cursor: pointer;
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.rental2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rental2-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rental2 h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.rental2-click h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.rental2 button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.rental2-click button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.rental2 button:hover {
+    background-color: #96b6ab;
+}
+
+.rental2-click button:hover {
+    background-color: #96b6ab;
+}
+
+.rental2 img {
+    box-shadow: none;
+    height: 395px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.rental2-click img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.office2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.office2-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.office2 h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.office2-click h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.office2 button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.office2-click button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.office2 button:hover {
+    background-color: #96b6ab;
+}
+
+.office2-click button:hover {
+    background-color: #96b6ab;
+}
+
+.office2 img {
+    box-shadow: none;
+    height: 395px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.office2-click img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.commercial2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial2-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial2 h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.commercial2-click h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.commercial2 button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.commercial2-click button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.commercial2 button:hover {
+    background-color: #96b6ab;
+}
+
+.commercial2-click button:hover {
+    background-color: #96b6ab;
+}
+
+.commercial2 img {
+    box-shadow: none;
+    height: 395px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.commercial2-click img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px;
+}
+
+.service7 {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.service7 h2 {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.5;
+    padding: 0px 20px 0px 20px;
+}
+
+.service7 h3 {
+    margin-top: 15px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Media Query (Service-Section) */
+@media (max-width: 1920px) {
+    .service7 {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1680px) {
+    .service7 {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1240px) {
+    .residential2 h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .residential2-click h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .residential2 button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .residential2-click button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental2 h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .rental2-click h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .rental2 button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .rental2-click button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office2 h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .office2-click h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .office2 button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .office2-click button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial2 h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .commercial2-click h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .commercial2 button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .commercial2-click button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
+        width: 450px;
+        height: auto;
+    }
+    .service7 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
+        width: 380px;
+        height: auto;
+    }
+
+    .residential2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .residential2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .residential2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .residential2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .rental2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .rental2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .rental2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .office2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .office2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .office2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .commercial2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .commercial2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .commercial2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    .residential2 h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .residential2-click h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .residential2 button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .residential2-click button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental2 h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .rental2-click h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .rental2 button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .rental2-click button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office2 h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .office2-click h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .office2 button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .office2-click button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial2 h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .commercial2-click h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .commercial2 button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .commercial2-click button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
+        width: 330px;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .residential2 h1 {
+        font-size: 2.5em;
+        margin-top: -45px;
+    }
+    .residential2-click h1 {
+        font-size: 2.5em;
+        margin-top: -45px;
+    }
+    .residential2 button {
+        margin-top: 95px;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .residential2-click button {
+        margin-top: 95px;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental2 h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .rental2-click h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .rental2 button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .rental2-click button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office2 h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .office2-click h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .office2 button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .office2-click button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial2 h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .commercial2-click h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .commercial2 button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .commercial2-click button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .residential2 img, .rental2 img, .office2 img, .commercial2 img, .residential2-click img, .rental2-click img, .office2-click img, .commercial2-click img {
+        width: 380px;
+        height: auto;
+    }
+
+    .residential2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .residential2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .residential2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .residential2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .rental2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .rental2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .rental2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .office2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .office2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .office2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial2 h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .commercial2-click h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .commercial2 button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    .commercial2-click button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+}

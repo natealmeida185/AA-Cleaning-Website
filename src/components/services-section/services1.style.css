@@ -1,0 +1,592 @@
+.services {
+    display: flex;
+    justify-content: center;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 80px;
+    max-width: 100%;
+    gap: 5px;
+}
+
+.service1 {
+    width: 100%;
+}
+
+.service1 .title {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.service2 {
+    width: 100%;
+}
+
+.service2 h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.service2 hr {
+    border-color: rgb(214, 214, 214);
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.residential {
+    display: flex;
+    justify-content: center;
+}
+
+.residential-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residential h1 {
+    display: none;
+}
+
+.residential-hover h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.residential button {
+    display: none;
+}
+
+.residential-hover button {
+    margin-top: 100px;
+    z-index: 1;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.residential-hover button:hover {
+    background-color: #96b6ab;
+}
+
+.residential img {
+    cursor: pointer;
+    height: 395px;
+}
+
+.residential-hover img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px rgb(41, 41, 41);
+}
+
+.rental {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rental-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rental h1 {
+    display: none;
+}
+
+.rental-hover h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.rental button {
+    display: none;
+}
+
+.rental-hover button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.rental-hover button:hover {
+    background-color: #96b6ab;
+}
+
+.rental img {
+    cursor: pointer;
+    height: 395px;
+}
+
+.rental-hover img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px rgb(41, 41, 41);
+}
+
+.office {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.office-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.office h1 {
+   display: none;
+}
+
+.office-hover h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.office button {
+    display: none;
+}
+
+.office-hover button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.office-hover button:hover {
+    background-color: #96b6ab;
+}
+
+.office img {
+    z-index: 0;
+    height: 395px;
+}
+
+.office-hover img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px rgb(41, 41, 41);
+}
+
+.commercial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial-hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commercial h1 {
+    display: none;
+}
+
+.commercial-hover h1 {
+    margin-top: -50px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.commercial-hover button {
+    z-index: 1;
+    margin-top: 100px;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color: #a5c3b9;
+    color: white;
+    border: none;
+}
+
+.commercial button {
+    display: none;
+}
+
+.commercial-hover button:hover {
+    background-color: #96b6ab;
+}
+
+.commercial img {
+    height: 395px;
+}
+
+.commercial-hover img {
+    height: 395px;
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 2px 0.5px rgb(41, 41, 41);
+}
+
+.service7 {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.service7 h2 {
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 1.5;
+    padding: 0px 20px 0px 20px;
+}
+
+.service7 h3 {
+    margin-top: 15px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Media Query (Service-Section) */
+@media (max-width: 1920px) {
+    .service7 {
+        width: 65%;
+    }
+}
+
+@media (max-width: 1680px) {
+    .service7 {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1240px) {
+    .residential-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .residential-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .rental-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .office-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .commercial-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential img, .rental img, .office img, .commercial img, .residential-hover img, .rental-hover img, .office-hover img, .commercial-hover img {
+        width: 450px;
+        height: auto;
+    }
+    .service7 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) {
+    .residential img, .rental img, .office img, .commercial img, .residential-hover img, .rental-hover img, .office-hover img, .commercial-hover img {
+        width: 380px;
+        height: auto;
+    }
+
+    .residential-hover h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .residential-hover button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental-hover h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .rental-hover button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office-hover h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .office-hover button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial-hover h1 {
+        font-size: 3em;
+        margin-top: -60px;
+    }
+    .commercial-hover button {
+        margin-top: 110px;
+        font-size: 1.3em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 800px) {
+    .residential-hover h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .residential-hover button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental-hover h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .rental-hover button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office-hover h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .office-hover button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial-hover h1 {
+        font-size: 2.7em;
+        margin-top: -50px;
+    }
+    .commercial-hover button {
+        margin-top: 100px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential img, .rental img, .office img, .commercial img, .residential-hover img, .rental-hover img, .office-hover img, .commercial-hover img {
+        width: 330px;
+        height: auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .residential-hover h1 {
+        font-size: 2.5em;
+        margin-top: -45px;
+    }
+    .residential-hover button {
+        margin-top: 95px;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental-hover h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .rental-hover button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office-hover h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .office-hover button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial-hover h1 {
+        font-size: 2.5em;
+        margin-top: -50px;
+    }
+    .commercial-hover button {
+        margin-top: 95px;
+        font-size: 1.1em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential img, .rental img, .office img, .commercial img, .residential-hover img, .rental-hover img, .office-hover img, .commercial-hover img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .residential-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .residential-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .rental-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .rental-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .office-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .office-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .commercial-hover h1 {
+        font-size: 3.5em;
+        margin-top: -70px;
+    }
+    .commercial-hover button {
+        margin-top: 120px;
+        font-size: 1.5em;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .residential img, .rental img, .office img, .commercial img, .residential-hover img, .rental-hover img, .office-hover img, .commercial-hover img {
+        width: 430px;
+        height: auto;
+    }
+}

@@ -1,0 +1,69 @@
+/* Form Styling */
+.form input[type=text], .form input[type=email], .form input[type=url], .form input[type=file], .form select, .form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.contact {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-title {
+    text-align: center;
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2.8em;
+}
+
+.contact-submit {
+    width: 100%;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    border-style: none;
+    background-color: #a5c3b9;
+    color: #ffff;
+}
+
+.contact-submit:hover {
+    background-color: #96b6ab;
+}
+
+.contact-info h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.contact-info a {
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.contact-info hr {
+    border-color: rgb(214, 214, 214);
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.form span {
+    padding-left: 2px;
+    color: red;
+}
+
+.notify-contact {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+}

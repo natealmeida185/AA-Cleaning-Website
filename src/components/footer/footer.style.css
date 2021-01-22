@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 30px;
+    background: rgb(88, 88, 88);
+}
+
+.social-links img {
+    width: 45px;
+    padding-bottom: 30px;
+}
+
+.footer-rights {
+    background-color: rgb(82, 82, 82);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    color: white;
+}
+
+#google-icon, #facebook-icon {
+    margin-right: 30px;
+}
+
+#google-icon:hover {
+    content: url("images/google-icon2.png");
+}
+
+#facebook-icon:hover {
+    content: url("images/facebook-icon2.png");
+}
+
+#angies-list-icon:hover {
+    content: url("images/angies-list-icon2.png");
+}

@@ -1,0 +1,14 @@
+@media (max-width: 1920px) {
+    .services-section2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1240px) {
+    .services-section1 {
+        display: none;
+    }
+    .services-section2 {
+        display: block;
+    }
+}

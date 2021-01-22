@@ -1,0 +1,66 @@
+/* Form Styling */
+.application-form input[type=text], .application-form input[type=email], .application-form input[type=url], .application-form input[type=file], .application-form select, .application-form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.apply {
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.apply h1 {
+    padding-top: 40px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.application-form span {
+    color: red;
+    padding-left: 2px;
+}
+
+.application-form {
+    padding-top: 10px;
+    font-size: 1em;
+}
+
+.apply-submit {
+    width: 100%;
+    font-size: 1.1em;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    border-style: none;
+    background-color: #a5c3b9;
+    color: #ffff;
+}
+
+.apply-submit:hover {
+    background-color: #96b6ab;
+}
+
+.transportation {
+    margin-bottom: 10px;
+}
+
+.notify-apply {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5em;
+}
+
+/* Media Query (Apply Page) */
+@media (max-width: 1080px) {
+    .apply {
+        padding-top: 110px;
+    }
+}

@@ -1,0 +1,75 @@
+/* Form Styling */
+.modal-form input[type=text], .modal-form input[type=email], .modal-form input[type=url], .modal-form input[type=file], .modal-form select, .modal-form textarea {
+    width: 100%; /* Full width */
+    padding: 5px; /* Some padding */ 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 0px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.modal-contact-form {
+    background-color: #ffff;
+    height: auto;
+}
+
+.modal-contact-title {
+    padding-top: 35px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2.2em;
+}
+
+.modal-contact-submit {
+    width: 100%;
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0;
+    border-style: none;
+    background-color: #a5c3b9;
+    color: #ffff;
+}
+
+.modal-contact-submit:hover {
+    background-color: #96b6ab;
+}
+
+.modal-contact-info h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.modal-contact-info a {
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.modal-contact-info hr {
+    border-color: rgb(214, 214, 214);
+    width: 10%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.modal-form label {
+    font-size: 1em;
+}
+
+.modal-form span {
+    padding-left: 2px;
+    color: red;
+}
+
+.modal-notify-contact {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+}
